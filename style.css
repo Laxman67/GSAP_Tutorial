@@ -10,3 +10,23 @@ h1 {
   background-color: #00ffff;
   margin-top: 10px;
 }
+
+/* Stragger */
+.container {
+  padding: 2em;
+  display: flex;
+  background-color: blue;
+  align-items: flex-end;
+  gap: 10px;
+  width: 100vw;
+  border-radius: 30px;
+  margin-top: 5vh;
+  height: 40vh;
+}
+.ele-items {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+
+  background-color: #1cc313;
+}

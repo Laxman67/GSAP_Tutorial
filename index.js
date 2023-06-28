@@ -46,3 +46,15 @@ gsap.to(".item-1", { x: 300, duration: 2, ease: "back(4)" });
 // ease: "back(4)"  --> overshoot and come back to defined area
 
 gsap.to(".item-2", { x: 300, duration: 2, ease: "bounce" });
+
+//  Stragger
+// stagger:0.2
+// from:"center"/ end / start
+
+gsap.to(".ele-items", {
+  y: -100,
+  stagger: {
+    amount: 1,
+    from: "center",
+  },
+});
