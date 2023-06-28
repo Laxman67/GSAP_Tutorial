@@ -37,6 +37,12 @@ gsap.fromTo(
   }
 );
 
-gsap.to(".item-1", { x: 300, duration: 2, repeat: 3 });
+gsap.to(".item-1", { x: 300, duration: 2, ease: "back(4)" });
 
-gsap.to(".item-2", { x: 300, duration: 2, delay: 1 });
+// ease:"bounce.in" --> Bounce at the begining
+// ease: "linear"
+// ease: "elastic"
+// ease: "bounce"
+// ease: "back(4)"  --> overshoot and come back to defined area
+
+gsap.to(".item-2", { x: 300, duration: 2, ease: "bounce" });
