@@ -26,13 +26,17 @@ gsap.fromTo(
     x: 200,
     y: 150,
     opacity: 0.3,
-    duration:2
+    duration: 2,
   },
   {
     x: 300,
     y: 50,
     scale: 2,
     opacity: 1,
-    duration:2
+    duration: 2,
   }
 );
+
+gsap.to(".item-1", { x: 300, duration: 2, repeat: 3 });
+
+gsap.to(".item-2", { x: 300, duration: 2, delay: 1 });
