@@ -1,7 +1,12 @@
 gsap.to("h1", {
   color: "red",
-  x: 40,
-  y: 40,
+  x: 400,
+  y: 20,
+  scale: 2,
+  //   backgroundColor:"red",
+  opacity: 0.5,
+  padding: 12,
+  duration: 1.5,
   rotation: 360,
-  duration:2,
+  height: 150,
 });
