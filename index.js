@@ -37,7 +37,7 @@ gsap.fromTo(
   }
 );
 
-gsap.to(".item-1", { x: 300, duration: 2, ease: "back(4)" });
+gsap.to(".item-1", { x: 300, duration: 2, ease: "back(3)" });
 
 // ease:"bounce.in" --> Bounce at the begining
 // ease: "linear"
@@ -54,7 +54,7 @@ gsap.to(".item-2", { x: 300, duration: 2, ease: "bounce" });
 gsap.to(".ele-items", {
   y: -100,
   stagger: {
-    amount: 1,
+    amount: 0.3,
     from: "center",
   },
 });
