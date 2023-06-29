@@ -5,12 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--  Defer means load after html -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+        integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+
+
+    <script src="index.js" defer></script>
     <style>
         body {
             margin: 0;
             height: 100vh;
             display: flex;
             flex-direction: column;
+            overflow: hidden;
 
         }
 
@@ -47,6 +55,7 @@
         .footer {
             height: 15vh;
             background-color: hwb(236 5% 41%);
+            transform: translateY(100%);
         }
     </style>
 </head>
@@ -55,9 +64,9 @@
 
     <div class="header">
         <div class="links">
-            <div class="links">Link 1</div>
-            <div class="links">Link 2</div>
-            <div class="links">Link 3</div>
+            <div class="link">Link 1</div>
+            <div class="link">Link 2</div>
+            <div class="link">Link 3</div>
         </div>
     </div>
     <div class="content">
@@ -71,10 +80,6 @@
 
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
-        integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="index.js"></script>
 
 </body>
 
